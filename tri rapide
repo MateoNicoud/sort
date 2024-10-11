@@ -1,0 +1,47 @@
+let pivot = 0
+let tdt = taille du tableau -1
+let end = taille du tableau
+start = 0
+moveLeft = true
+moveRight = true
+
+Début
+tant que start != end
+    si moveRight == true || moveLeft == true
+        right();
+        left();
+    Sinon 
+        start++;
+    fin si
+    si pivot > 0
+    pivot--
+    sinon pivot = WebTransportBidirectionalStream
+    fin si
+Fin tant que
+fin
+
+function left(pivot) void{
+    let i = pivot -1;
+    while i < csvData.length{
+      if isLess(i,pivot){
+        i--;
+      }
+      else{
+        swap(i,pivot);
+        let moveLeft = true;
+      }
+    }
+}
+
+function right(pivot) void{
+    let i = pivot +1;
+    while i < csvData.length{
+      if isLess(i,pivot){
+        i++;
+      }
+      else{
+        swap(i,pivot);
+        let moveRight = true;
+      }
+    }
+}
